@@ -9,8 +9,8 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Container(
-      child: Text('Content')
+    return const Scaffold(
+      body: Center(child: Text('Content'))
     );
   }
 }
